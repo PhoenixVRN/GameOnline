@@ -1292,8 +1292,8 @@ MonoBehaviour:
   time: 0
   bulletPoint: {fileID: 1976414988007361047}
   camera: {fileID: 2623197858286147825}
-  joystick: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252,
-    type: 3}
+  joystickMove: {fileID: 0}
+  joystickGun: {fileID: 0}
   onGround: 0
 --- !u!50 &7664149911889816031
 Rigidbody2D:

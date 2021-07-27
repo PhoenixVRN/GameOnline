@@ -639,7 +639,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1749172639}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -4587,6 +4587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dynamicJoystickMove: {fileID: 1605609617}
   dynamicJoystickGun: {fileID: 1081954889}
+  camera: {fileID: 1749172639}
 --- !u!4 &1694277297
 Transform:
   m_ObjectHideFlags: 0
@@ -4701,7 +4702,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.735849, g: 0.39126092, b: 0.3713955, a: 0}
+  m_BackGroundColor: {r: 0.5283019, g: 0.2731221, b: 0.24122463, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -4716,9 +4717,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 5
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4742,7 +4743,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749172637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -300}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 270868281}

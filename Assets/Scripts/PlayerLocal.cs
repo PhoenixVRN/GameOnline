@@ -60,12 +60,13 @@ public class PlayerLocal : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse0) && !FindObjectOfType<GameManager>().pause)
  //       if (joystickGun.Vertical != 0 || joystickGun.Horizontal != 0 && !FindObjectOfType<GameManager>().pause)
+        
         {
 
-            if (!stopPlayer)
-            {
+ //           if (!stopPlayer)
+ //           {
                 fireGun();
-            }
+ //           }
         }
 
      
@@ -98,8 +99,8 @@ Debug.DrawRay((Vector2)transform.position + Vector2.down * 1.0f, Vector2.down, C
             onGround = false;
         }
 
-//        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
-        if (joystickMove.Vertical > 0.7)
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
+//        if (joystickMove.Vertical > 0.7)
         {
             if (onGround)
             {
@@ -112,7 +113,7 @@ Debug.DrawRay((Vector2)transform.position + Vector2.down * 1.0f, Vector2.down, C
         if (rb.velocity == Vector2.zero)
         {
             stopPlayer = true;
-            button.gameObject.SetActive(true);
+//            button.gameObject.SetActive(true);
             //           StartCoroutine(zoomUp());
         }
         
@@ -140,7 +141,7 @@ Debug.DrawRay((Vector2)transform.position + Vector2.down * 1.0f, Vector2.down, C
             yield return new WaitForSeconds(0.1f);
             SizeZoomCam = SizeZoomCam + 0.1f;
         }
-        button.gameObject.SetActive(true);
+//        button.gameObject.SetActive(true);
     } 
     IEnumerator zoomDown()
     {
@@ -152,7 +153,7 @@ Debug.DrawRay((Vector2)transform.position + Vector2.down * 1.0f, Vector2.down, C
             SizeZoomCam = SizeZoomCam - 0.1f;
 
         }
-        button.gameObject.SetActive(false);
+//        button.gameObject.SetActive(false);
     }
 
     public void fireGun()

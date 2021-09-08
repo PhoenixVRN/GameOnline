@@ -771,7 +771,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447007833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.669144, y: 9.695041, z: 0}
+  m_LocalPosition: {x: 33.669144, y: 11.1, z: 0}
   m_LocalScale: {x: 4.8234034, y: 4.8234034, z: 1.2058508}
   m_Children: []
   m_Father: {fileID: 2106275572}
@@ -2589,7 +2589,7 @@ GameObject:
   - component: {fileID: 1702434661}
   - component: {fileID: 1702434660}
   - component: {fileID: 1702434659}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2604,7 +2604,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702434655}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.3, y: -0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1444920215}
@@ -8358,7 +8358,7 @@ CompositeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
